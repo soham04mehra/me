@@ -2,7 +2,7 @@ __pycache__/
 *.py[cod]
 venv/
 *.csv
-*.pkl
+
 *.h5
 .DS_Store
 Thumbs.db
