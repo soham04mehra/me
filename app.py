@@ -16,7 +16,7 @@ with open('standard_scaler.pkl','rb') as file:
  model = tf.keras.models.load_model('model.h5')
 
  # streamlit app
-st.title('Customer Churn PRediction')
+st.title('Customer Churn Prediction')
 
 # User input
 geography = st.selectbox('Geography', onehot_en.categories_[0])
